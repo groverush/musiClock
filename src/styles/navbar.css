@@ -1,0 +1,32 @@
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: #272727;
+	color: #d8d8d8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 2;
+}
+.navbar {
+	width: 100%;
+	height: 100%;
+}
+.navbar a {
+	color: whitesmoke;
+	text-decoration: none;
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+}
+.navbar a h4 {
+	font-family: "Tilt Neon", sans-serif;
+	font-size: 1.375rem;
+}
+
+.navbar a img {
+	height: 57%;
+}

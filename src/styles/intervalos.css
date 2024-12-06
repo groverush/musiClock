@@ -1,0 +1,45 @@
+.topic-explanation {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+.topic-explanation h3 {
+	font-size: 1.5rem;
+}
+.topic-explanation p {
+	margin-top: 1.5em;
+	font-size: 1.27rem;
+	font-weight: 300;
+	word-spacing: 0.15em;
+	line-height: 1.5;
+}
+.interval-categories {
+	width: 100%;
+	justify-content: space-evenly;
+}
+.dissonances h3,
+.dissonances h4 {
+	margin-top: 1em;
+}
+.types-of-consonances {
+	display: flex;
+	gap: 4em;
+	margin-top: 1em;
+}
+.types-of-consonances ul,
+.dissonances ul {
+	list-style: none;
+	margin-top: 0.75em;
+	font-weight: 300;
+}
+.interval-examples,
+.interval-example {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	width: 100%;
+}
+.interval-examples iframe {
+	width: 80%;
+	height: 27rem;
+}

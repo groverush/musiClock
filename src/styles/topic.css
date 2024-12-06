@@ -1,0 +1,28 @@
+.topic {
+	all: unset;
+	background-color: rgb(235, 241, 244);
+
+	width: 100%;
+	text-decoration: none;
+	color: 6px solid black;
+	cursor: pointer;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding: 1.24em;
+
+	box-shadow: 1px 1px 1px 1px black;
+	border-radius: 6px;
+	transition: all 1s;
+}
+.topic:hover {
+	transform: translate(-3%, 0);
+	background-color: rgb(198, 233, 250);
+}
+.topic h3 {
+	font-size: 1.2rem;
+}
+.topic p {
+	font-size: 1rem;
+	margin-top: 4px;
+}

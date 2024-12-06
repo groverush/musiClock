@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cutive&family=Gabarito:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.App {
+	width: 100%;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+}
+.inner-container {
+	margin-top: 50px;
+}
+
+.result-container {
+	margin: 1em auto;
+	padding: 0.43em 0.84em;
+	border: 2px solid #0b0b0c;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px #000000;
+	text-align: center;
+	max-width: 150px;
+}
+.result-container h3 {
+	font-size: 1rem;
+}
+.semitones {
+	display: block;
+	text-align: center;
+	font-size: 0.85rem;
+	margin-top: 0.43em;
+	color: rgb(101, 85, 226);
+	font-family: "Roboto", sans-serif;
+}
+.intervals,
+.scales,
+.chords {
+	padding: 2em;
+}
+.topic-content .topic-introduction {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	gap: 2em;
+}
+.topic-content .topic-introduction h2 {
+	font-size: 2.7rem;
+	text-align: center;
+}
+.topic-content .topic-introduction p {
+	font-size: 1.27rem;
+	font-weight: 300;
+	word-spacing: 0.15em;
+	line-height: 1.5;
+}
+@media (min-width: 870px) {
+	.intervals,
+	.scales,
+	.chords {
+		margin-left: 450px;
+		max-width: calc(100vw - 420px);
+		padding: 3em;
+	}
+	.clock-wrapper {
+		position: fixed;
+		position: fixed;
+		top: 7%;
+		left: 5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+@media (min-width: 1040px) {
+	.clock-wrapper {
+		position: fixed;
+		position: fixed;
+		top: 12%;
+		left: 5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
