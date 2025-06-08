@@ -20,20 +20,13 @@ const Clock = ({ polygon, notesAvailable }) => {
 		const synth = new Tone.Synth().toDestination();
 		const now = Tone.now();
 
-		// switch (e.detail) {
-		// 	case 1:
-		// 		synth.triggerAttackRelease(`${playThisNote}${octave}`, "8n", now);
-		// 		break;
-		// 	case 2:
-		// 		break;
-		// }
+	
 		if (e.detail == 1) {
 			synth.triggerAttackRelease(`${playThisNote}${octave}`, "8n", now);
 		} else {
 			synth.triggerAttackRelease(`${playThisNote}${octave + 1}`, "8n", now);
 		}
-		// synth.triggerAttackRelease("E4", "8n", now + 0.5);
-		// synth.triggerAttackRelease("G4", "8n", now + 1);
+	
 	};
 	const playNoteOctaveUp = (note, index) => {
 		const playThisNote = note.length > 1 ? note[0] + note[1] : note;
@@ -43,8 +36,7 @@ const Clock = ({ polygon, notesAvailable }) => {
 
 		synth.triggerAttackRelease(`${playThisNote}${octave}`, "8n", now);
 
-		// synth.triggerAttackRelease("E4", "8n", now + 0.5);
-		// synth.triggerAttackRelease("G4", "8n", now + 1);
+		
 	};
 	const handleRootNote = e => {
 		setBaseNotes(e.target.value, baseAccidental);

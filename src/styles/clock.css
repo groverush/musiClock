@@ -107,6 +107,7 @@
 	display: flex;
 	gap: 0.42em;
 }
+
 .controls select {
 	all: unset;
 	background-color: rgb(255, 214, 165);
@@ -116,12 +117,13 @@
 	max-width: 250px;
 	margin: 0 auto;
 	text-align: center;
-	border-radius: 27px;
+	border-radius: 10px;
 	cursor: pointer;
 	transition: background-color 0.75s;
 	box-shadow: 1px 1px 1px black;
 	user-select: none;
 }
+
 .controls select:hover,
 .controls select:focus {
 	background-color: rgb(255, 179, 86);

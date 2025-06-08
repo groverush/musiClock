@@ -46,14 +46,14 @@ const intervalsExamples = [
 		song: "Brianstorm - Artic Monkeys",
 		intervalNotes: "F - F",
 		embed: "https://www.youtube.com/embed/30w8DyEJ__0?si=btq6gqMkFLRX_tJ6",
-		desc: "En los ocho primeros compases de la canción, podemos encontrar un intervalo de unísono de forma repetitiva en la guitarra sobre la nota Fa.",
+		desc: "En los ocho primeros compases de la canción, podemos encontrar un intervalo de unísono de forma repetitiva en la guitarra sobre la nota Fa. Este intervalo se caracterza por que ambas notas son la misma, es decir, no hay distancia entre ellas.",
 	},
 	{
 		intervalName: "Segunda menor: 1 Semitono",
 		song: "Jaws - Theme song",
 		intervalNotes: "E - F",
 		embed: "https://www.youtube.com/embed/MuOUBVZGPEs?si=3YxAUkks3X6yRovH",
-		desc: "Las primeras dos notas que emiten las cuerdas conforman un intervalo de segunda menor entre la nota Mi y la nota Fa",
+		desc: "Las primeras dos notas que emiten las cuerdas conforman un intervalo de segunda menor entre la nota Mi y la nota Fa. Este intervalo es el más pequeño que existe en la música occidental, y se caracteriza por tener una distancia de un semitono entre ambas notas.",
 	},
 	{
 		intervalName: "Segunda mayor: 2 Semitonos",

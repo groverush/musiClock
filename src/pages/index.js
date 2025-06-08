@@ -1,7 +1,7 @@
-import Acordes from "./Acordes";
-import Escalas from "./Escalas";
+import Chords from "./Chords";
+import Scales from "./Scales";
 import Home from "./Home";
 import RoadMap from "./RoadMap";
-import Intervalos from "./Intervalos";
+import Intervals from "./Intervals";
 
-export { Acordes, Escalas, Home, Intervalos, RoadMap };
+export { Chords, Scales, Home, Intervals, RoadMap };

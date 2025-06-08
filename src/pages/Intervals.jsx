@@ -1,11 +1,12 @@
 import Clock from "../components/Clock";
 import { drawAnInterval } from "../utils/polygonsFunctions";
-import { intervalsNames, intervalsExamples } from "../constants/constants";
+import { intervalsNames } from "../constants/constants";
 import { makeAnInterval } from "../utils/musicFunctions";
 import { useStore } from "../store";
 import "../styles/intervalos.css";
 import "../styles/clock.css";
 import { useState } from "react";
+import intervalsExamples from '../../intervals.json'
 const Intervalos = () => {
 	const [intervalSelection, setIntervalSelection] = useState(0);
 	let polygon = drawAnInterval(intervalSelection);

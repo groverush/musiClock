@@ -1,0 +1,106 @@
+[
+  {
+    "intervalName": "Unísono: 0 Semitonos",
+    "song": "Seven Nation Army - The White Stripes",
+    "intervalNotes": "E - E",
+    "embed": "https://www.youtube.com/embed/0J2QdDbelmY",
+    "time": "0:05",
+    "desc": "El icónico riff de guitarra comienza con un unísono en Mi, repitiendo la misma nota para crear fuerza y ritmo. El unísono es el intervalo más básico, donde no hay diferencia en altura entre las notas, funcionando como la base tonal o punto de referencia para todos los demás intervalos."
+  },
+  {
+    "intervalName": "Segunda menor: 1 Semitono",
+    "song": "Jaws Theme - John Williams",
+    "intervalNotes": "E - F",
+    "embed": "https://www.youtube.com/embed/MuOUBVZGPEs",
+    "time": "0:01",
+    "desc": "En la sección de cuerdas, el intervalo ascendente de segunda menor entre Mi y Fa crea una sensación de tensión y amenaza. La segunda menor, también conocida como semitono, es el intervalo más pequeño en la música occidental y suele utilizarse para generar suspenso o disonancia debido a su cercanía tonal."
+  },
+  {
+    "intervalName": "Segunda mayor: 2 Semitonos",
+    "song": "Happy Birthday (en tonalidad de G)",
+    "intervalNotes": "G - A",
+    "embed": "https://www.youtube.com/embed/7B6O3CNO2hI",
+    "time": "0:00",
+    "desc": "La melodía inicia con un salto ascendente de segunda mayor, de Sol a La, ejecutado en voz humana con claridad. La segunda mayor consta de dos semitonos y es común en melodías simples y pegajosas, aportando un movimiento suave y estable entre notas adyacentes."
+  },
+  {
+    "intervalName": "Tercera menor: 3 Semitonos",
+    "song": "Smoke on the Water - Deep Purple",
+    "intervalNotes": "G - Bb",
+    "embed": "https://www.youtube.com/embed/zUwEIt9ez7M",
+    "time": "0:05",
+    "desc": "El famoso riff de guitarra contiene un salto ascendente de tercera menor de Sol a Si bemol, dando su característica oscuridad. La tercera menor es un intervalo que abarca tres semitonos y se asocia con un sonido melancólico o triste, siendo fundamental en la formación de acordes menores."
+  },
+  {
+    "intervalName": "Tercera mayor: 4 Semitonos",
+    "song": "Can't Help Falling in Love - Elvis Presley",
+    "intervalNotes": "D - F#",
+    "embed": "https://www.youtube.com/embed/vGJTaP6anOU",
+    "time": "0:10",
+    "desc": "La voz de Elvis inicia con un salto ascendente de tercera mayor, de Re a Fa sostenido, que le da un aire romántico a la melodía. La tercera mayor está formada por cuatro semitonos y es un intervalo alegre y estable, clave para la construcción de acordes mayores."
+  },
+  {
+    "intervalName": "Cuarta justa: 5 Semitonos",
+    "song": "Here Comes the Bride",
+    "intervalNotes": "C# - F#",
+    "embed": "https://www.youtube.com/embed/hfXQXxIXJfQ",
+    "time": "0:02",
+    "desc": "El tema clásico inicia con un intervalo ascendente de cuarta justa, de Do sostenido a Fa sostenido, interpretado por la orquesta de metales. La cuarta justa cubre cinco semitonos y es un intervalo muy consonante que suele usarse para crear tensión y resolución en la música."
+  },
+  {
+    "intervalName": "Tritono: 6 Semitonos",
+    "song": "Maria - West Side Story",
+    "intervalNotes": "F - B",
+    "embed": "https://www.youtube.com/embed/E6Tw9fh6yQw",
+    "time": "0:16",
+    "desc": "La voz femenina interpreta un tritono ascendente entre Fa y Si, un intervalo disonante que genera tensión característica. El tritono consta de seis semitonos y es conocido como el intervalo más inestable y disonante, usado frecuentemente para evocar suspenso o dramatismo."
+  },
+  {
+    "intervalName": "Quinta justa: 7 Semitonos",
+    "song": "Star Wars Main Theme - John Williams",
+    "intervalNotes": "Bb - F",
+    "embed": "https://www.youtube.com/embed/_D0ZQPqeJkk",
+    "time": "0:00",
+    "desc": "La orquesta comienza con una quinta justa ascendente, de Si bemol a Fa, en la sección de metales, otorgando poder y majestuosidad. La quinta justa, formada por siete semitonos, es uno de los intervalos más consonantes y fundamentales en la armonía occidental, utilizada para construir acordes y armonías estables."
+  },
+  {
+    "intervalName": "Sexta menor: 8 Semitonos",
+    "song": "The Entertainer - Scott Joplin",
+    "intervalNotes": "E - C",
+    "embed": "https://www.youtube.com/embed/fPmruHc4S9Q",
+    "time": "0:23",
+    "desc": "El piano interpreta un intervalo ascendente de sexta menor, de Mi a Do, que contribuye a la expresividad rítmica y melódica del rag. La sexta menor abarca ocho semitonos y aporta un carácter melancólico pero dulce dentro de una melodía."
+  },
+  {
+    "intervalName": "Sexta mayor: 9 Semitonos",
+    "song": "My Bonnie Lies Over the Ocean",
+    "intervalNotes": "D - B",
+    "embed": "https://www.youtube.com/embed/O1y2vJ3G8Mk",
+    "time": "0:18",
+    "desc": "La voz principal ejecuta un salto ascendente de sexta mayor, de Re a Si, transmitiendo una sensación amable y nostálgica. La sexta mayor consta de nueve semitonos y suele utilizarse para añadir color y calidez a las melodías."
+  },
+  {
+    "intervalName": "Séptima menor: 10 Semitonos",
+    "song": "Somewhere - West Side Story",
+    "intervalNotes": "D - C",
+    "embed": "https://www.youtube.com/embed/Kh8o5BT7b7E",
+    "time": "0:20",
+    "desc": "La voz principal sube de Re a Do en un intervalo de séptima menor, aportando un efecto de anticipación y tensión. La séptima menor, con diez semitonos, es un intervalo disonante que suele crear expectación para resolver hacia la octava."
+  },
+  {
+    "intervalName": "Séptima mayor: 11 Semitonos",
+    "song": "Take On Me - a-ha",
+    "intervalNotes": "C - B",
+    "embed": "https://www.youtube.com/embed/djV11Xbc914",
+    "time": "0:34",
+    "desc": "La voz en la frase sube de Do a Si en séptima mayor, creando un efecto emotivo e inusual para la música pop. La séptima mayor tiene once semitonos y se usa raramente debido a su carácter tenso y poco consonante."
+  },
+  {
+    "intervalName": "Octava justa: 12 Semitonos",
+    "song": "Somewhere Over The Rainbow - Judy Garland",
+    "intervalNotes": "C - C'",
+    "embed": "https://www.youtube.com/embed/PSZxmZmBfnU",
+    "time": "0:01",
+    "desc": "Al inicio, la voz de Judy Garland asciende de Do a Do una octava más alta, dando un sentido de elevación y esperanza. La octava justa es un intervalo que cubre doce semitonos y es percibido como la misma nota en un registro superior, proporcionando una sensación de completitud y resolución."
+  }
+]

@@ -16,7 +16,7 @@ const Acordes = () => {
 	return (
 		<section className="chords">
 			<div className="clock-wrapper">
-				<Clock polygon={newPolygonChord} notes notesAvailable={newChord} />
+				<Clock polygon={newPolygonChord} notesAvailable={newChord} />
 				<div className="controls">
 					<select name="scale" id="scale" onChange={handleSelectedChord} value={selectedChord}>
 						<option value="major">Acorde mayor</option>

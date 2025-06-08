@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import { Home, RoadMap, Intervalos, Escalas, Acordes } from "./pages";
+import { Home, RoadMap, Intervals, Scales, Chords } from "./pages";
 import Navbar from "./components/Navbar";
 import { Footer } from "./components/Footer";
 const App = () => {
@@ -12,9 +12,9 @@ const App = () => {
 					<Routes>
 						<Route path="/" element={<Home />}></Route>
 						<Route path="/learn" element={<RoadMap />}></Route>
-						<Route path="/learn/intervalos" element={<Intervalos />}></Route>
-						<Route path="/learn/escalas" element={<Escalas />}></Route>
-						<Route path="/learn/acordes" element={<Acordes />}></Route>
+						<Route path="/learn/intervalos" element={<Intervals />}></Route>
+						<Route path="/learn/escalas" element={<Scales />}></Route>
+						<Route path="/learn/acordes" element={<Chords />}></Route>
 					</Routes>
 				</div>
 				<Footer />
