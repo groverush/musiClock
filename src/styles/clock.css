@@ -7,8 +7,8 @@
 	position: sticky;
 }
 .clock {
-	width: 22rem;
-	height: 22rem;
+	width: 280px;
+	height: 280px;
 	position: relative;
 	border: 4px solid #252525;
 	border-radius: 50%;
@@ -127,4 +127,16 @@
 .controls select:hover,
 .controls select:focus {
 	background-color: rgb(255, 179, 86);
+}
+@media  screen and (min-width: 600px) {
+	.clock {
+		width: 400px;
+		height: 400px;
+	}
+	.note-point {
+		width: 60px;
+		height: 60px;
+		font-size: 1.2rem;
+	}
+	
 }
