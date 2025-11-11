@@ -139,8 +139,6 @@ html {
 	}
 
 	.clock-wrapper {
-		position: fixed;
-		position: fixed;
 		top: 7%;
 		left: 5%;
 		display: flex;
@@ -153,8 +151,6 @@ html {
 
 @media (min-width: 1040px) {
 	.clock-wrapper {
-		position: fixed;
-		position: fixed;
 		top: 12%;
 		left: 5%;
 		display: flex;
