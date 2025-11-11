@@ -12,10 +12,13 @@ const ClockWrapper = (props) => {
             clockWrapper.style.display = 'block';
     }
     return <>
-        <span className="hidden-button" onClick={hideClock}>{isActiveClock?"X":"🕒"}</span> 
+        {!isActiveClock?<span className="show-button" onClick={hideClock}>🕒</span>:
     <div className="clock-wrapper">
+        <span className="hidden-button" onClick={hideClock}>X</span>
+
     {props.children}
     </div>
+    }
     </>
 }
 export default ClockWrapper;
