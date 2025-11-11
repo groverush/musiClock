@@ -2,6 +2,8 @@ import Clock from "../components/Clock";
 import { drawAnInterval } from "../utils/polygonsFunctions";
 import { intervalsNames } from "../constants/constants";
 import { makeAnInterval } from "../utils/musicFunctions";
+import IntevalCard from "../components/cards/intervals/IntervalCard";
+import ClockWrapper from "../components/ClockWrapper";
 import { useStore } from "../store";
 import "../styles/intervalos.css";
 import "../styles/clock.css";
@@ -19,7 +21,10 @@ const Intervalos = () => {
 
 	return (
 		<section className="intervals">
-			<div className="clock-wrapper">
+			<ClockWrapper>
+
+
+				{/* <div className="clock-wrapper"> */}
 				<Clock polygon={polygon} notesAvailable={intervalNotes} />
 				<div className="controls">
 					<select name="intervals" id="intervals" onChange={handleIntervalSelection} value={intervalSelection}>
@@ -33,10 +38,11 @@ const Intervalos = () => {
 				<div className="result-container">
 					<h3>
 						{intervalNotes.join(" - ")}{" "}
-						<span className="semitones">{!parseInt(intervalSelection) ? "0/12" : intervalSelection} Semitonos</span>
+						<span className="semitones">{!parseInt(intervalSelection) ? "0" : intervalSelection} Semitonos</span>
 					</h3>
 				</div>
-			</div>
+				{/* </div> */}
+			</ClockWrapper>
 			<section className="topic-content">
 				<div className="topic-introduction">
 					<h2>Intervalos</h2>
@@ -116,19 +122,14 @@ const Intervalos = () => {
 				</section>
 				<p>A continuación veremos algunas referencias musicales de estos intervalos de forma melódica ascendente.</p>
 				{/* ---------------------------------------------- */}
+				<div className="interval-slider">
+					<IntevalCard interval={intervalsExamples[0]} />
+				</div>
 				<div className="interval-examples">
-					{intervalsExamples.map(interval => (
+					{intervalsExamples.map((interval, index) => (
 						<div key={interval.name} className="interval-example">
 							<h3>{interval.intervalName}</h3>
-							<h4>{interval.song}</h4>
-							<h4>{interval.intervalNotes}</h4>
-							<iframe
-								src={interval.embed}
-								title="YouTube video player"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerPolicy="strict-origin-when-cross-origin"
-								allowFullScreen
-							></iframe>
+							<h4>{makeAnInterval(baseNotes[0], baseAccidental, index)}</h4>
 							<p>{interval.desc}</p>
 						</div>
 					))}

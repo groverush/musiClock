@@ -27,7 +27,7 @@ const topics = [
 	},
 ];
 const intervalsNames = [
-	"Unísono - Octava Justa",
+	"Unísono",
 	"2m - Segunda menor",
 	"2M - Segunda mayor",
 	"3m - Tercera menor",
@@ -39,6 +39,7 @@ const intervalsNames = [
 	"6M - Sexta mayor",
 	"7m - Séptima menor",
 	"7M - Séptima Mayor",
+	"8J - Octava Justa",
 ];
 const intervalsExamples = [
 	{
@@ -146,6 +147,8 @@ const polygonIntervals = {
 	maj6: "polygon(7.69% 18.16%, 1.22% 29.29%, 33.78% 53.98%, 18.85% 93.57%, 29.87% 98.6%, 50% 50%)",
 	min7: "polygon(7.69% 18.16%, 2.14% 29.28%, 28.28% 50.30%, -0.43% 71.24%, 6.62% 82.69%, 50% 50%)",
 	maj7: "polygon(7.69% 18.16%, 1.52% 29.28%, 31.95% 45.41%, -1.65% 44.31%, -3.17% 56.67%, 50% 50%)",
+	perfect8: "polygon(50% 0%, 75.72% 9.34%, 93.09% 27.43%, 97.7% 52.24%, 91.88% 73.18%, 75.07% 94.28%, 50% 100%, 25.59% 93.62%, 7.57% 73.95%, 0.84% 47.03%, 6.25% 28.42%, 24.28% 8.68%)",
+
 };
 
 const polygonScales = {

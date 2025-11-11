@@ -36,6 +36,8 @@ export function drawAnInterval(interval) {
 
 		case 11:
 			return polygonIntervals.maj7;
+		case 12:
+			return polygonIntervals.perfect8;
 	}
 }
 export function drawAScale(scale) {

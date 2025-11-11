@@ -3,7 +3,7 @@ import Clock from "../components/Clock";
 import { useStore } from "../store";
 import { makeScale } from "../utils/musicFunctions";
 import { drawAScale } from "../utils/polygonsFunctions";
-
+import ClockWrapper from "../components/ClockWrapper";
 const Escalas = () => {
 	const baseNotes = useStore(store => store.baseNotes);
 	const baseAccidental = useStore(store => store.baseAccidental);
@@ -16,7 +16,8 @@ const Escalas = () => {
 	console.log(newPolygonScale);
 	return (
 		<section className="scales">
-			<div className="clock-wrapper">
+			<ClockWrapper>
+
 				<Clock polygon={newPolygonScale} notesAvailable={newScale} />
 				<div className="controls">
 					<select name="scale" id="scale" onChange={handleSelectedScale} value={selectedScale}>
@@ -39,8 +40,8 @@ const Escalas = () => {
 						<span className="semitones">{!parseInt(intervalSelection) ? "0/12" : intervalSelection} Semitonos</span>
 					</h3>
 				</div> */}
-			</div>
 
+			</ClockWrapper>
 			<div className="topic-content">
 				<div className="topic-description">
 					<h2>Intervalos</h2>
