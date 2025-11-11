@@ -57,6 +57,8 @@ html {
 }
 .show-button{
 	top: 7%;
+	position: fixed;
+	opacity: 0.7;
 }
 
 .hidden-button:hover, .show-button:hover {
