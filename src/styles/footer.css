@@ -6,3 +6,8 @@
 	margin: auto;
 	margin-bottom: 2px;
 }
+a{
+	color: rgb(136, 205, 240);
+	text-decoration: none;
+	font-weight: bold;
+}
