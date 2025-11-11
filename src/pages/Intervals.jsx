@@ -129,7 +129,7 @@ const Intervalos = () => {
 					{intervalsExamples.map((interval, index) => (
 						<div key={interval.name} className="interval-example">
 							<h3>{interval.intervalName}</h3>
-							<h4>{makeAnInterval(baseNotes[0], baseAccidental, index)}</h4>
+							<h4>{makeAnInterval(baseNotes[0], baseAccidental, index).join(" - ")}</h4>
 							<p>{interval.desc}</p>
 						</div>
 					))}
