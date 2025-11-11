@@ -18,7 +18,9 @@ body, html{
 	height: 100%;
 	display: flex;
 }
-
+.clock-wrapper{
+	margin-top: 50px;
+}
 .result-container {
 	margin: 1em auto;
 	padding: 0.43em 0.84em;
