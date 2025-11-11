@@ -25,10 +25,12 @@ html {
 .clock-wrapper {
 	margin-top: 50px;
 	border: #0b0b0c 2px solid;
-	padding: 2em 1em;
+	padding: 2em;
 	border-radius: 8px;
 	background: linear-gradient(#ededf1, #e6d4d4);
-	position: relative;
+	position: fixed;
+	opacity: 0.98;
+
 
 }
 
