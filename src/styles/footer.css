@@ -1,7 +1,9 @@
 .footer {
 	display: flex;
 	justify-content: center;
-	margin-top: 2em;
+	align-items: end;
+	padding-bottom: 0.4em;
+
 }
 .footer a{
 	color: rgb(136, 205, 240);
