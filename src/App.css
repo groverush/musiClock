@@ -5,7 +5,7 @@
 body,
 html, #root {
 	height: 100%;
-
+	width: 100%;
 }
 
 .App {
@@ -17,8 +17,10 @@ html, #root {
 }
 
 .inner-container {
-	height: 100%;
+	margin-top: 30px;
 	display: flex;
+	flex-direction: column;
+	gap: 2em;
 }
 
 .clock-wrapper {
@@ -124,7 +126,7 @@ html, #root {
 @media (min-width: 870px) {
 	.inner-container {
 		margin-top: 50px;
-		gap: 1em;
+		gap: 2.5em;
 	}
 
 	.intervals,

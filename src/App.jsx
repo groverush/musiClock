@@ -16,8 +16,8 @@ const App = () => {
 						<Route path="/learn/escalas" element={<Scales />}></Route>
 						<Route path="/learn/acordes" element={<Chords />}></Route>
 					</Routes>
-				</div>
 				<Footer />
+				</div>
 			</div>
 		</Router>
 	);

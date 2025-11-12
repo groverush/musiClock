@@ -1,8 +1,6 @@
 .roadmap {
 	height: 100%;
-	width: 720px;
-	padding: 5em 2em 7em;
-	margin: 0 auto;
+	padding: 3em 2em 1em;
 	display: flex;
 	flex-direction: column;
 	gap: 2em;
@@ -18,4 +16,12 @@
 }
 .conventions p {
 	margin-bottom: 4px;
+}
+@media (min-width: 870px) {
+	.roadmap {
+		max-width: 720px;
+		margin: 0 auto;
+		padding: 4em 2em 2em;
+	}
+	
 }
