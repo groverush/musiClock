@@ -18,6 +18,7 @@ html, #root {
 
 .inner-container {
 	height: 100%;
+	display: flex;
 }
 
 .clock-wrapper {
